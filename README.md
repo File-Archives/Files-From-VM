@@ -40,5 +40,9 @@
 		Load balancer is done using the feign framework. By using this annotation at line 22, check the below image.
 		<img src="Screenshots/load balancer, feign framework does this by just putting this annotation in our application.PNG" />
 	</li>
+	<li>
+		If any requests with the tag "order" comes, and after order anything else will be sent to "ORDER-SERVICE" in a load balanced way. (Check the uri property for this).
+		<img src="Screenshots/application yaml for gateway.PNG" />
+	</li>
 </ul>
 <hr />
