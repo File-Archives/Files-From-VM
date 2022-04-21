@@ -27,3 +27,17 @@
 		Send another POST request to order-service through cloud gateway.
 	</li>
 </ol>
+<hr />
+### Notes for Micro-services
+<ul>
+	<li>
+		Communication between a service to another service is done using a "RestTemplate".
+		<img src="Screenshots/service to service communication, order service with payment service.PNG" />
+		CHECK OTHER LINES OF CODE TO SEE HOW TO EXACTLY COMMUNICATE AND SEND A RESPONSE.
+	</li>
+	<li>
+		Load balancer is done using the feign framework. By using this annotation at line 22, check the below image.
+		<img src="Screenshots/load balancer, feign framework does this by just putting this annotation in our application.PNG" />
+	</li>
+</ul>
+<hr />
